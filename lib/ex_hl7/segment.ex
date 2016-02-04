@@ -314,6 +314,7 @@ defmodule HL7.Segment.PID do
     field :patient_id,                 seq:  3, type: CX,        length: 48
     field :alt_patient_id,             seq:  4, type: CX,        length: 48
     field :patient_name,               seq:  5, type: XPN,       length: 51
+    field :date_of_birth,              seq:  7, type: :string,   length: 30
   end
 end
 
